@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    list-style: none;
+    text-decoration: none;
+   
+ }
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+nav {
+    width: 60%;
+    }
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    }
+
+li {
+    list-style: none;
+    color: red ;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "kadan thmor pro", sans-serif;
+    }
+
+li:hover {
+    color: #fff;
+    }
+
+    .title {
+        color: red;
+        font-size: 40px;
+        font-style: italic;
+        font-family: "kadan thmor pro", sans-serif;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        padding: 0px 55% 0px 45%;
+    }
+
+#logo {
+    width: 150px;
+    height:auto;
+    }
+
+   #contato {
+        width: 95%;
+        height: 600px;
+        border: 2px;
+        border-radius: 5px;
+        padding: 20px;
+        background-color: #2b000000;
+       background-image: url(https://legadodadc.com.br/wp-content/uploads/2021/11/FD1vP6lWQAMNHQl-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: auto;
+        display: block;
+        
+        
+    }
+
+    .fale-conosco {
+        width: 20px;
+        height: 10px;
+        margin-top: 50px;
+        margin-left: 150px;
+        background-color: #2b000000;
+    }
+
+    .c1 {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 20px 800px;
+        background-color: #2b000000;
+        column-gap: 20%;
+        white-space: nowrap;
+    }
+
+    img {
+        background-color: #2b000000;
+    }
+
+    
+    h1{
+        font-family: "kadan thmor pro", sans-serif;
+        color: #fff;
+        font-weight: 600px;
+        text-shadow: 2px 2px 4px red;
+    }
+
+    h2 {
+        display: block;
+        justify-content: center;
+        font-family: "kadan thmor pro", sans-serif;
+        color: #fff;
+        font-size: 30px;
+        background-color: #2b000000;
+    }
+
+    h3{
+        font-family: "kadan thmor pro", sans-serif;
+        color: #fff;
+        font-size: 25px;
+        
+    }
+
+
+    form {
+        height: 40px;
+        width: 30px;
+        background-color: #2b000000;
+        border-radius: 50px;
+        margin: 10px 200px;     
+             
+    }
+
+
+    input {
+        width: 450px;
+        height: 30px;
+        background-color: #2b000000;
+        color: #fff;
+        font-family: "kadan thmor pro", sans-serif;
+        border:3px solid #fff;
+        font-size: 18px;
+        margin: 10px;
+        text-transform: capitalize;     
+    }
+
+    
+    textarea {
+        width: 450px;
+        height: 250px;
+        background-color: #2b000000;
+        color: #fff;
+        border:3px solid #fff;
+        font-size:  18px;
+        font-family: "kadan thmor pro", sans-serif;
+        margin: 10px;
+        text-transform: capitalize;
+    }
+
+    .button {
+        width: 150px;
+        height: 30px;
+        background-color: black;
+        color: #fff;
+        padding: 8px 30px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: .8s;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        border: none;
+        outline: none;
+        margin-left: 150px;
+    }
+
+    .button:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+    
+    footer {
+        height: 300px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    span {
+        color: #fff;
+        font-family: "kadan thmor pro", sans-serif;
+    }
+
+    .footer-navigation {
+        display: none;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    @media(max-width: 768px){
+
+        .footer-navigation {
+            display: block;
+        }
+
+        nav{
+            display: none;
+        }
+
+        .title {
+            color: red;
+            font-size: 40px;
+            font-style: italic;
+            font-family: "kadan thmor pro", sans-serif;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            padding: 0px 30% ;
+        }
+
+        h1 {
+            width: 300px;
+        }
+
+        #contato {
+            height:400px;
+            display: flex;
+            flex-direction: column;
+            background-image: url(https://legadodadc.com.br/wp-content/uploads/2021/11/FD1vP6lWQAMNHQl-1.jpg);
+            background-position: center;
+        }
+
+        form {
+            margin: 40px;
+           position: relative;
+           bottom: 150px;
+        }
+
+      input {
+        width: 300px;
+        height: 30px;
+        background-color: #2b000000;
+        color: #fff;
+        font-family: "kadan thmor pro", sans-serif;
+        border: 3px solid;
+        border-color: #fff;
+        font-size: 18px;
+        margin: 30px 10px ;
+      }
+
+      textarea {
+        width: 300px;
+        height: 80px;
+        background-color: #2b000000;
+        color: #fff;
+        font-family: "kadan thmor pro", sans-serif;
+        border: 3px solid;
+        border-color: #fff;
+        font-size: 18px;
+        margin: 30px 10px;
+       
+      }
+
+      .button {
+        width: 100px;
+        margin: 20px 0 0 110px;
+        background-color: white;
+      }
+
+      .fale-conosco {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2 {
+        font-family: "kadan thmor pro", sans-serif;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    h3{
+        font-family: "kadan thmor pro", sans-serif;
+        color: #fff;
+        font-size: 25px;
+        
+    }
+
+    .c1 {
+        margin: 10px 30px;
+        position: relative;
+        top: 300px;
+    }
+
+    footer {
+        height: 300px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        top: 300px;
+        
+    }
+
+    }
+
